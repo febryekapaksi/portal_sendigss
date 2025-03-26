@@ -1,0 +1,119 @@
+/* Background Gradien */
+body {
+    background-image: url('../images/background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Header */
+.header {
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    /* margin-bottom: 30px; */
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    height: 70px;
+}
+
+/* Kartu Website */
+.card-custom {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 40px;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+}
+
+.card-custom:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-icon {
+    position: relative;
+    top: -40px;
+    margin-bottom: -60px;
+    display: flex;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.card-icon img {
+    width: 250px;
+    transition: transform 0.3s ease;
+    /* padding: 5px;  */
+}
+
+.card-custom:hover .card-icon img {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.card-custom:hover .card-title {
+    color: #007bff;
+}
+
+
+/* Footer */
+.footer {
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 5px;
+}
+

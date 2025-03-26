@@ -23,7 +23,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+// $config['base_url'] = '';
+$config['base_url'] = 'https://localhost:4443/portal_sendigss/';
+
 
 /*
 |--------------------------------------------------------------------------
